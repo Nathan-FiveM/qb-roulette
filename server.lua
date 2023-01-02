@@ -1,4 +1,4 @@
-QBCore						= nil
+QBCore = exports['qb-core']:GetCoreObject()
 TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
 
 RegisterServerEvent('qb_roulette:removemoney')
