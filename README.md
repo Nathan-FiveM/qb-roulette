@@ -21,5 +21,24 @@ I used bt-target for my script use your own trigger, set this up, they're rather
     })
 ```
 
+For qb-target
+```
+Config.TargetModels = {
+["Casinroulette"] = {
+	models = {
+		"vw_prop_casino_roulette_01b",
+	},
+	options = {
+		{
+			type = "client",
+			event = "qb-roulette:start",
+			icon = "fas fa-coins",
+			label = "Play Roulette",
+		},
+	},
+	distance = 2.5
+}
+}
+```
 #STEP 2
 Install the script and start it easy peasy!
